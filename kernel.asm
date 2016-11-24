@@ -8,6 +8,6 @@ section         .text
 global start
 extern kmain            ; this function is gonna be located in our c code(kernel.c)
 start:
-        cli             ;clears the interrupts 
+        cli             ;clears the interrupts but I didn't use interupts. I know a good OS would have them 
         call kmain      ;send processor to continue execution from the kamin funtion in c code
-        hlt             ; halt the cpu(pause it from executing from this address
+        hlt             ; halt the cpu(pause it from executing from this address)
