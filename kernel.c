@@ -5,7 +5,7 @@
 kmain()
 {
        clearTerminal();
-       print("Welcome to the COMP 410 OS with help from IKnow.");
+       print("Welcome to the COMP 410 OS with help from IKnow."); //IKnow is the video series I watched and built my files following along.
        print("To begin please type with the keyboard.");
        //print("COMP410 OS built with help from IKNOW."); statement not appearing on screen.
        
