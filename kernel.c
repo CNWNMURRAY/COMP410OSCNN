@@ -9,7 +9,7 @@ kmain()
        print("To begin please type with the keyboard.");
        //print("COMP410 OS built with help from IKNOW."); statement not appearing on screen.
        
-      	while(0)
+      	while(1);
        {
                 print("\nCOMP410Type:> ")
                 
