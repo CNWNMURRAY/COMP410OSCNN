@@ -1,4 +1,4 @@
-#ifndef KB_H
+#ifndef KB_H //checks to see if KB_H has been defined earlier in the file or in another included file. 
 #define KB_H
 #include "terminal.h"
 #include "system.h"
